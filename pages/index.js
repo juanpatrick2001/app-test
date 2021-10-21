@@ -13,11 +13,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Front End</a>
+          Welcome to <a href="/">Front End</a> Class
         </h1>
 
         <p className={styles.description}>
-          Belajar SYNRGY asyik dan menyenangkan
+          SYNRGY (BCA - Binar Academy)
         </p>
 
         <div className={styles.grid}>
