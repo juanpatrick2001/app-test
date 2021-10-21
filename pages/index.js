@@ -13,42 +13,45 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Front End</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Belajar SYNRGY yang asyik dan menyenangkan
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/" className={styles.card}>
+            <h2>Lingkungan Produktif</h2>
+            <p>Suasana asyik dan produktif membuat belajar tidak akan bosan</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="/" className={styles.card}>
+            <h2>Peserta berbagai latar</h2>
+            <p>Di sini peserta SYNRGY berbagai latar sosial, pendidikan, pekerjaan yang berpadu</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Modul Lengkap dan materi relevan</h2>
+            <p>Pengajaran mantap dan keren</p>
+          </a>
+
+          <a
+            href="/"
+            className={styles.card}
+          >
+            <h2>Mungkin pencari jodoh</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Pokoknya kamu betah belajar deh hehehehe
             </p>
           </a>
+        </div>
+        <div style={{marginBottom:"10px",marginTop:"5px"}}>
+          <h3 style={{textAlign:"center"}}>Ayo daftar sekarang</h3>
+          <button type="button" style={{backgroundColor:'blue',color:'white', padding:'2px'}} >Daftar</button>
         </div>
       </main>
 
