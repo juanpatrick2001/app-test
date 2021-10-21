@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Belajar SYNRGY yang asyik dan menyenangkan
+          Belajar SYNRGY asyik dan menyenangkan
         </p>
 
         <div className={styles.grid}>
@@ -28,30 +28,30 @@ export default function Home() {
 
           <a href="/" className={styles.card}>
             <h2>Peserta berbagai latar</h2>
-            <p>Di sini peserta SYNRGY berbagai latar sosial, pendidikan, pekerjaan yang berpadu</p>
+            <p>Di sini peserta SYNRGY berbagai latar sosial, pendidikan, pekerjaan yang berpadu menambah networking</p>
           </a>
 
           <a
             href="/"
             className={styles.card}
           >
-            <h2>Modul Lengkap dan materi relevan</h2>
-            <p>Pengajaran mantap dan keren</p>
+            <h2>Modul Lengkap dan relevan</h2>
+            <p>Pengajaran mantap dan keren serta insightful dari Mentor</p>
           </a>
 
           <a
             href="/"
             className={styles.card}
           >
-            <h2>Mungkin pencari jodoh</h2>
+            <h2>Pencari jodoh</h2>
             <p>
               Pokoknya kamu betah belajar deh hehehehe
             </p>
           </a>
         </div>
-        <div style={{marginBottom:"10px",marginTop:"5px"}}>
-          <h3 style={{textAlign:"center"}}>Ayo daftar sekarang</h3>
-          <button type="button" style={{backgroundColor:'blue',color:'white', padding:'2px'}} >Daftar</button>
+        <div style={{textAlign:"center",marginBottom:"10px",marginTop:"5px"}}>
+          <h3>Jangan sampai nyesel kalau belum daftar. Ayo daftar sekarang</h3>
+          <button type="button" style={{backgroundColor:'blue',color:'white', padding:'8px 50px',borderRadius:'5px', border:'none'}} >Daftar</button>
         </div>
       </main>
 
